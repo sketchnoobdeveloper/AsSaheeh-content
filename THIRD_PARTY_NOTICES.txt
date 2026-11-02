@@ -1,0 +1,46 @@
+AsSaheeh — Bengali public-source Hadith data
+Captured and technically validated: 2026-10-31
+
+These datasets were integrated at the user's request for a free, noncommercial
+educational application. Technical validation is not scholarly approval, a
+translation copyright grant, or endorsement by a publisher.
+
+1. Sahih Bukhari — Islamic Foundation Bengali edition, 7,053 references
+Source: zubayerisfar/api_server, commit
+d3bb128378e7873fc90516b9f6a0b6628467d4b9
+https://github.com/zubayerisfar/api_server
+The CSV credits Islamic Foundation and HadithBD. The repository README states
+"Free to use for Islamic educational purposes." The repository author's authority
+to sublicense the underlying translation has not been independently established.
+Do not describe this as CC0 or publisher-approved.
+
+Original Bengali, Arabic, English, numbering, grades, notes, explanations,
+lessons, HTML and remaining source fields are retained. Notes are separately
+labelled in imported reader text; the narration itself is not rewritten.
+
+2. DeenIslamic public Bengali API — 13 named source collections
+https://services.deenislamic.com/api/Hadith
+https://deenislamic.com/
+Documented wrapper:
+https://github.com/visatk/Hadith-API-Bangla/tree/b66b4f3643b4acb8b6794b86f60aa62e05b32ae5
+Access used documented public requests without credentials. The wrapper's MIT
+software claim is NOT a licence for the underlying translations. Corpus reuse
+permission and translation publisher/editor attribution remain unconfirmed.
+No blanket copyright permission or scholarly endorsement is claimed.
+
+Each book's .meta.json records its source identity, exact content hash, total,
+attribution, review status and original snapshot hash. Complete means coverage
+of the named source edition/collection, not every volume of a classical series.
+Series selections such as Silsila Sahiha are not presented as the entire series.
+The 2,758-record Mishkat portion was rejected as a complete-book replacement.
+
+JSON is a lossless field mapping. source_fields preserves additional upstream
+fields; source_catalog/source_chapters preserve Deen book/chapter metadata.
+Source reference labels, HTML and embedded notes are not guessed or corrected.
+Missing Arabic stays missing. Deen supplies no separate grading field in these
+responses; no default Sahih grade is invented, including for weak/fabricated-
+Hadith discussion collections.
+
+The full required Bukhari/Muslim/Riyad setup is still blocked by missing complete
+Bengali Muslim data. No synthetic test fixture is bundled. The native datasets
+are not yet connected to the existing Compose/backend reader screens.

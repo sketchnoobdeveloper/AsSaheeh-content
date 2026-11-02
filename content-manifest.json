@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "content_tag": "content-v1",
+  "database": {
+    "file": "offline_library.db",
+    "bytes": 55111680,
+    "sha256": "308f62de563df311445d855c8bf690364173b121158f3aa6c5e27b571bf28c54"
+  },
+  "catalog": {
+    "file": "offline_library.json",
+    "bytes": 71793,
+    "sha256": "998467c6c6993e845c30d2d37c305df090837e5f9c0c87a98c4370c8f4aa82e2"
+  },
+  "source_archive": {
+    "file": "assaheeh-content-v1-source-json.zip",
+    "bytes": 19739553,
+    "sha256": "67da93e0407b0089815aec6678a2fa5d2f5462cb5339b6da9332f2850d911263"
+  },
+  "download_base": "https://github.com/sketchnoobdeveloper/AsSaheeh-content/releases/download/content-v1/"
+}
