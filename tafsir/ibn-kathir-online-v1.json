@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "mode": "online-first",
+  "title": "Ibn Kathir online source catalog",
+  "api_base": "https://api.quran.com/api/v4",
+  "resource_identity_checked_at": "2026-11-07",
+  "editions": [
+    {
+      "language": "bn",
+      "resource_id": 164,
+      "slug": "bn-tafseer-ibn-e-kaseer",
+      "name": "Tafseer ibn Kathir",
+      "publisher": "Tawheed Publication",
+      "source": "https://quran.com",
+      "qul_resource": "https://qul.tarteel.ai/resources/tafsir/31",
+      "licence_information": "https://qul.tarteel.ai/resources/tafsir/31/licence"
+    },
+    {
+      "language": "en",
+      "resource_id": 169,
+      "slug": "en-tafisr-ibn-kathir",
+      "name": "Ibn Kathir (Abridged)",
+      "abridged": true,
+      "source": "https://quran.com",
+      "qul_resource": "https://qul.tarteel.ai/resources/tafsir/35",
+      "licence_information": "https://qul.tarteel.ai/resources/tafsir/35/licence"
+    }
+  ],
+  "offline": {
+    "redistribution_permission": "unconfirmed",
+    "downloads_enabled": false,
+    "packs": [],
+    "reason": "QUL reports no copyright information for these two translations. Software-repository MIT licensing is not a grant from the translation publisher."
+  },
+  "display_policy": "Fetch only on explicit expansion, validate exact resource/language and requested-ayah coverage, show multi-ayah scope, preserve source text. No AI translation or tafsir substitution.",
+  "scholarly_review": "unconfirmed",
+  "contains_tafsir_text": false
+}
