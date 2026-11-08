@@ -44,3 +44,12 @@ Hadith discussion collections.
 The full required Bukhari/Muslim/Riyad setup is still blocked by missing complete
 Bengali Muslim data. No synthetic test fixture is bundled. The native datasets
 are not yet connected to the existing Compose/backend reader screens.
+
+3. Sirat — আর-রাহীকুল মাখতুম (Bangla)
+Source: IslamHouse Bangla PDF
+https://d1.islamhouse.com/data/bn/ih_books/single/bn_ar_raheequl_makhtoom.pdf
+The PDF is a 508-page scan. The JSON in sirat/bn.json is OCR-derived and was
+cleaned into plain UTF-8 paragraphs; it is not a new translation or a scholarly
+review. Technical cleanup only. Redistribution permission is not independently
+confirmed; the file is provided at the app owner's request for free educational
+use. Exact bytes, SHA-256 and chapter count are recorded in sirat/manifest.json.

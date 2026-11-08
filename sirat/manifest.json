@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "language": "bn",
+  "title": "আর-রাহীকুল মাখতুম",
+  "subtitle": "রাসূলুল্লাহ ﷺ-এর জীবনীগ্রন্থ",
+  "file": "bn.json",
+  "bytes": 3106854,
+  "sha256": "b7a1a52c702b81a4aa528adf4d2fc4f4b89e03efe542c9665630cc2c3f11b55c",
+  "chapters": 50,
+  "source": "IslamHouse Bangla PDF bn_ar_raheequl_makhtoom.pdf; OCR-derived text cleaned into plain UTF-8 paragraphs",
+  "updated": "2026-11-08",
+  "notice": "Technical cleanup only. Redistribution permission is not independently confirmed; provided at the app owner's request for free educational use. Not a scholarly review."
+}

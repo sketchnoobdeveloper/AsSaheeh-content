@@ -1,6 +1,6 @@
 # AsSaheeh downloadable content
 
-This public repository hosts the optional offline Quran and Hadith content pack
+This public repository hosts the optional offline Quran, Hadith and Sirat content
 used by the [AsSaheeh Android app](https://github.com/sketchnoobdeveloper/AsSaheeh).
 Keeping the compiled corpus in a GitHub Release makes the installer much smaller.
 
@@ -20,6 +20,14 @@ The Android app downloads the database only after an explicit user action,
 checks its exact byte count and SHA-256 hash, imports it transactionally, and
 then removes the downloaded staging file. A failed or interrupted download is
 not used.
+
+## Sirat (online reading)
+
+`sirat/bn.json` is the complete Bangla **আর-রাহীকুল মাখতুম** in 50 chapters. The
+app reads it online from this repository (jsDelivr primary, GitHub raw fallback)
+and may keep an optional device-local copy. The bundled APK asset remains the
+offline fallback. Source, exact bytes and SHA-256 are recorded in
+`sirat/manifest.json` and `THIRD_PARTY_NOTICES.txt`.
 
 ## Important content notice
 
